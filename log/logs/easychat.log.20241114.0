@@ -1,0 +1,144 @@
+2024-11-14 21:08:17 [INFO][org.hibernate.validator.internal.util.Version][<clinit>][21]-> HV000001: Hibernate Validator 6.2.0.Final
+2024-11-14 21:08:17 [INFO][com.easychat.EasyChatApplication][logStarting][55]-> Starting EasyChatApplication using Java 11.0.20.1 on DESKTOP-3Q03D1E with PID 45180 (D:\Program Files\Java\javacode\easychat-all\easychat-java\target\classes started by zhengpengju in D:\Program Files\Java\javacode\easychat-all\easychat-java)
+2024-11-14 21:08:17 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-11-14 21:08:17 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-14 21:08:17 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-14 21:08:17 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-11-14 21:08:18 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2024-11-14 21:08:18 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2024-11-14 21:08:18 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-11-14 21:08:18 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-14 21:08:18 [WARN][org.apache.catalina.core.AprLifecycleListener][log][173]-> This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2024-11-14 21:08:18 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-11-14 21:08:18 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-11-14 21:08:18 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-11-14 21:08:18 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-14 21:08:18 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-11-14 21:08:18 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 919 ms
+2024-11-14 21:08:18 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2024-11-14 21:08:31 [WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591]-> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initRun': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nettyWebSocketStarter': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerWebSocket': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelContextUtils': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisComponet': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/easychat/redis/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+2024-11-14 21:14:06 [INFO][com.easychat.EasyChatApplication][logStarting][55]-> Starting EasyChatApplication using Java 11.0.20.1 on DESKTOP-3Q03D1E with PID 59048 (D:\Program Files\Java\javacode\easychat-all\easychat-java\target\classes started by zhengpengju in D:\Program Files\Java\javacode\easychat-all\easychat-java)
+2024-11-14 21:14:06 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-11-14 21:14:06 [INFO][org.hibernate.validator.internal.util.Version][<clinit>][21]-> HV000001: Hibernate Validator 6.2.0.Final
+2024-11-14 21:14:07 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-14 21:14:07 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-14 21:14:07 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-11-14 21:14:07 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2024-11-14 21:14:07 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2024-11-14 21:14:07 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-11-14 21:14:07 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-14 21:14:07 [WARN][org.apache.catalina.core.AprLifecycleListener][log][173]-> This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2024-11-14 21:14:07 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-11-14 21:14:07 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-11-14 21:14:07 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-11-14 21:14:07 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-14 21:14:08 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-11-14 21:14:08 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1071 ms
+2024-11-14 21:14:08 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2024-11-14 21:14:09 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2024-11-14 21:14:09 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2024-11-14 21:14:09 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2024-11-14 21:14:09 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2024-11-14 21:14:09 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 3.186 seconds (JVM running for 3.74)
+2024-11-14 21:14:09 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2024-11-14 21:14:09 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2024-11-14 21:14:09 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2024-11-14 21:14:09 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][92]-> Netty服务端启动成功,端口:5051
+2024-11-14 21:18:04 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 21:18:04 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2024-11-14 21:18:04 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2024-11-14 21:19:36 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelActive][51]-> 有新的连接加入。。。
+2024-11-14 21:19:37 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-11-14 21:19:37 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-11-14 21:22:19 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelInactive][62]-> 有连接已经断开。。。
+2024-11-14 21:22:19 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2024-11-14 21:22:19 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
+2024-11-14 21:22:24 [INFO][org.hibernate.validator.internal.util.Version][<clinit>][21]-> HV000001: Hibernate Validator 6.2.0.Final
+2024-11-14 21:22:24 [INFO][com.easychat.EasyChatApplication][logStarting][55]-> Starting EasyChatApplication using Java 11.0.20.1 on DESKTOP-3Q03D1E with PID 20448 (D:\Program Files\Java\javacode\easychat-all\easychat-java\target\classes started by zhengpengju in D:\Program Files\Java\javacode\easychat-all\easychat-java)
+2024-11-14 21:22:24 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-11-14 21:22:24 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-14 21:22:24 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-14 21:22:24 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-11-14 21:22:25 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2024-11-14 21:22:25 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2024-11-14 21:22:25 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-11-14 21:22:25 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-14 21:22:25 [WARN][org.apache.catalina.core.AprLifecycleListener][log][173]-> This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2024-11-14 21:22:25 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-11-14 21:22:25 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-11-14 21:22:25 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-11-14 21:22:25 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-14 21:22:25 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-11-14 21:22:25 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 917 ms
+2024-11-14 21:22:25 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2024-11-14 21:22:26 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2024-11-14 21:22:26 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2024-11-14 21:22:26 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2024-11-14 21:22:26 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2024-11-14 21:22:26 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 3.004 seconds (JVM running for 4.08)
+2024-11-14 21:22:26 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2024-11-14 21:22:27 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2024-11-14 21:22:27 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2024-11-14 21:22:27 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][92]-> Netty服务端启动成功,端口:5051
+2024-11-14 21:22:29 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 21:22:29 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2024-11-14 21:22:29 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2024-11-14 21:22:29 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelActive][51]-> 有新的连接加入。。。
+2024-11-14 21:23:29 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-11-14 21:23:29 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-11-14 21:23:29 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-11-14 21:23:29 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-11-14 21:23:44 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-11-14 21:24:06 [INFO][com.easychat.websocket.MessageHandler][lambda$lisMessage$0][35]-> 收到广播消息:{"contactId":"U52355233598","lastMessage":"我是badmann","messageContent":"我是badmann","messageType":4}
+2024-11-14 21:24:47 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelInactive][62]-> 有连接已经断开。。。
+2024-11-14 21:24:47 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2024-11-14 21:24:47 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
+2024-11-14 21:25:19 [INFO][org.hibernate.validator.internal.util.Version][<clinit>][21]-> HV000001: Hibernate Validator 6.2.0.Final
+2024-11-14 21:25:19 [INFO][com.easychat.EasyChatApplication][logStarting][55]-> Starting EasyChatApplication using Java 11.0.20.1 on DESKTOP-3Q03D1E with PID 34900 (D:\Program Files\Java\javacode\easychat-all\easychat-java\target\classes started by zhengpengju in D:\Program Files\Java\javacode\easychat-all\easychat-java)
+2024-11-14 21:25:19 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-11-14 21:25:19 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-14 21:25:19 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-14 21:25:19 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-11-14 21:25:19 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2024-11-14 21:25:19 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2024-11-14 21:25:19 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-11-14 21:25:19 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-11-14 21:25:19 [WARN][org.apache.catalina.core.AprLifecycleListener][log][173]-> This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2024-11-14 21:25:19 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-11-14 21:25:19 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-11-14 21:25:19 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-11-14 21:25:19 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-14 21:25:20 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-11-14 21:25:20 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 872 ms
+2024-11-14 21:25:20 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2024-11-14 21:25:20 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2024-11-14 21:25:20 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2024-11-14 21:25:21 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2024-11-14 21:25:21 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2024-11-14 21:25:21 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 2.813 seconds (JVM running for 3.464)
+2024-11-14 21:25:21 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2024-11-14 21:25:21 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2024-11-14 21:25:21 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2024-11-14 21:25:21 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][92]-> Netty服务端启动成功,端口:5051
+2024-11-14 21:25:42 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 21:25:42 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2024-11-14 21:25:42 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 0 ms
+2024-11-14 21:26:54 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://localhost:5050/api/account/login,错误信息:
+com.easychat.exception.BusinessException: 账号或者密码错误
+2024-11-14 21:27:06 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://localhost:5050/api/account/login,错误信息:
+com.easychat.exception.BusinessException: 账号或者密码错误
+2024-11-14 21:27:14 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelActive][51]-> 有新的连接加入。。。
+2024-11-14 21:27:15 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-11-14 21:27:15 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-11-14 21:27:23 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelInactive][62]-> 有连接已经断开。。。
+2024-11-14 21:27:23 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2024-11-14 21:27:23 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.

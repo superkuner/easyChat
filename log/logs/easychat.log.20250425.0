@@ -1,0 +1,356 @@
+2025-04-25 16:34:17 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][651]-> No active profile set, falling back to default profiles: default
+2025-04-25 16:34:17 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][249]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-25 16:34:17 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][127]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-25 16:34:17 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][187]-> Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2025-04-25 16:34:18 [INFO][org.springframework.cloud.context.scope.GenericScope][setSerializationId][295]-> BeanFactory id=7d81f9f2-5977-3689-9bf1-32dc6adbe025
+2025-04-25 16:34:18 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2025-04-25 16:34:18 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:34:18 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2025-04-25 16:34:18 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-25 16:34:18 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-04-25 16:34:18 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2025-04-25 16:34:18 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-04-25 16:34:18 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-04-25 16:34:18 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2025-04-25 16:34:18 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][285]-> Root WebApplicationContext: initialization completed in 896 ms
+2025-04-25 16:34:18 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2025-04-25 16:34:19 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:34:19 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:34:20 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:34:20 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:34:20 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:34:20 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:34:20 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][initialize][181]-> Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-25 16:34:21 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:34:21 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][initialize][181]-> Initializing ExecutorService 'taskScheduler'
+2025-04-25 16:34:23 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:34:23 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:34:23 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2025-04-25 16:34:23 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][register][71]-> nacos registry, DEFAULT_GROUP easychat-service1 192.168.126.1:5050 register finished
+2025-04-25 16:34:24 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:34:24 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 10.675 seconds (JVM running for 11.523)
+2025-04-25 16:34:24 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2025-04-25 16:34:25 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2025-04-25 16:34:25 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2025-04-25 16:34:25 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][101]-> Netty服务端启动成功,端口:5053
+2025-04-25 16:34:25 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][103]-> Netty服务注册到nacos成功,端口:5053
+2025-04-25 16:35:48 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 16:35:48 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][86]-> De-registering from Nacos Server now...
+2025-04-25 16:35:48 [ERROR][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][102]-> ERR_NACOS_DEREGISTER, de-register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='easychat-service1', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.126.1', networkInterface='', port=5050, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.deregisterService(NamingProxy.java:264)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:240)
+	at com.alibaba.nacos.client.naming.NacosNamingService.deregisterInstance(NacosNamingService.java:226)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:98)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.deregister(AbstractAutoServiceRegistration.java:256)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.stop(AbstractAutoServiceRegistration.java:271)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.destroy(AbstractAutoServiceRegistration.java:208)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:579)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:551)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:512)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2025-04-25 16:35:48 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][106]-> De-registration finished.
+2025-04-25 16:37:01 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][651]-> No active profile set, falling back to default profiles: default
+2025-04-25 16:37:01 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][249]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-25 16:37:01 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][127]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-25 16:37:01 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][187]-> Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2025-04-25 16:37:01 [INFO][org.springframework.cloud.context.scope.GenericScope][setSerializationId][295]-> BeanFactory id=7d81f9f2-5977-3689-9bf1-32dc6adbe025
+2025-04-25 16:37:01 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2025-04-25 16:37:01 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:37:01 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2025-04-25 16:37:01 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-25 16:37:01 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-04-25 16:37:01 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2025-04-25 16:37:01 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-04-25 16:37:01 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-04-25 16:37:01 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2025-04-25 16:37:01 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][285]-> Root WebApplicationContext: initialization completed in 668 ms
+2025-04-25 16:37:02 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2025-04-25 16:37:03 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:37:03 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:37:03 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:37:03 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:37:03 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:37:03 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:37:03 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][initialize][181]-> Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-25 16:37:04 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:37:04 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][initialize][181]-> Initializing ExecutorService 'taskScheduler'
+2025-04-25 16:37:06 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:37:06 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:37:06 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2025-04-25 16:37:06 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][register][71]-> nacos registry, DEFAULT_GROUP easychat-service1 192.168.126.1:5050 register finished
+2025-04-25 16:37:07 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:37:07 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 9.567 seconds (JVM running for 10.159)
+2025-04-25 16:37:07 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2025-04-25 16:37:07 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2025-04-25 16:37:07 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2025-04-25 16:37:07 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][101]-> Netty服务端启动成功,端口:5053
+2025-04-25 16:37:07 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][103]-> Netty服务注册到nacos成功,端口:5053
+2025-04-25 16:44:00 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 16:44:00 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][86]-> De-registering from Nacos Server now...
+2025-04-25 16:44:00 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][106]-> De-registration finished.
+2025-04-25 16:44:17 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][651]-> No active profile set, falling back to default profiles: default
+2025-04-25 16:44:17 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][249]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-25 16:44:17 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][127]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-25 16:44:17 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][187]-> Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2025-04-25 16:44:17 [INFO][org.springframework.cloud.context.scope.GenericScope][setSerializationId][295]-> BeanFactory id=7d81f9f2-5977-3689-9bf1-32dc6adbe025
+2025-04-25 16:44:17 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2025-04-25 16:44:17 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:44:17 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2025-04-25 16:44:17 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-25 16:44:17 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-04-25 16:44:17 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2025-04-25 16:44:17 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-04-25 16:44:17 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-04-25 16:44:17 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2025-04-25 16:44:17 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][285]-> Root WebApplicationContext: initialization completed in 729 ms
+2025-04-25 16:44:18 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2025-04-25 16:44:19 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:44:19 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:44:19 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:44:19 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:44:19 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:44:19 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:44:19 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][initialize][181]-> Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-25 16:44:20 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:44:20 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][initialize][181]-> Initializing ExecutorService 'taskScheduler'
+2025-04-25 16:44:22 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:44:22 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:44:22 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2025-04-25 16:44:22 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][register][71]-> nacos registry, DEFAULT_GROUP easychat-service1 192.168.126.1:5050 register finished
+2025-04-25 16:44:24 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:44:24 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 9.868 seconds (JVM running for 10.588)
+2025-04-25 16:44:24 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2025-04-25 16:44:24 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2025-04-25 16:44:24 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2025-04-25 16:44:24 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][101]-> Netty服务端启动成功,端口:5053
+2025-04-25 16:44:24 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][103]-> Netty服务注册到nacos成功,端口:5053
+2025-04-25 16:47:06 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 16:47:06 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][86]-> De-registering from Nacos Server now...
+2025-04-25 16:47:06 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][106]-> De-registration finished.
+2025-04-25 16:50:44 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][651]-> No active profile set, falling back to default profiles: default
+2025-04-25 16:50:45 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][249]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-25 16:50:45 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][127]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-25 16:50:45 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][187]-> Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2025-04-25 16:50:45 [INFO][org.springframework.cloud.context.scope.GenericScope][setSerializationId][295]-> BeanFactory id=7d81f9f2-5977-3689-9bf1-32dc6adbe025
+2025-04-25 16:50:45 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2025-04-25 16:50:45 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:50:45 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2025-04-25 16:50:45 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-25 16:50:45 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-04-25 16:50:45 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2025-04-25 16:50:45 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-04-25 16:50:45 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-04-25 16:50:45 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2025-04-25 16:50:45 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][285]-> Root WebApplicationContext: initialization completed in 686 ms
+2025-04-25 16:50:45 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2025-04-25 16:50:46 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:50:46 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:50:46 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:50:46 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:50:46 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:50:46 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:50:46 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][initialize][181]-> Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-25 16:50:48 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:50:48 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][initialize][181]-> Initializing ExecutorService 'taskScheduler'
+2025-04-25 16:50:49 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:50:49 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:50:49 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2025-04-25 16:50:49 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][register][71]-> nacos registry, DEFAULT_GROUP easychat-loginservice 192.168.126.1:5050 register finished
+2025-04-25 16:50:51 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:50:51 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 9.756 seconds (JVM running for 10.417)
+2025-04-25 16:50:51 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2025-04-25 16:50:51 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2025-04-25 16:50:51 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2025-04-25 16:50:51 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][101]-> Netty服务端启动成功,端口:5053
+2025-04-25 16:50:51 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][103]-> Netty服务注册到nacos成功,端口:5053
+2025-04-25 16:57:49 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 16:57:49 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][86]-> De-registering from Nacos Server now...
+2025-04-25 16:57:49 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][106]-> De-registration finished.
+2025-04-25 16:57:58 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][651]-> No active profile set, falling back to default profiles: default
+2025-04-25 16:57:58 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][249]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-25 16:57:58 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][127]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-25 16:57:58 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][187]-> Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2025-04-25 16:57:58 [INFO][org.springframework.cloud.context.scope.GenericScope][setSerializationId][295]-> BeanFactory id=7d81f9f2-5977-3689-9bf1-32dc6adbe025
+2025-04-25 16:57:58 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2025-04-25 16:57:58 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:57:58 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2025-04-25 16:57:58 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-25 16:57:58 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-04-25 16:57:58 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2025-04-25 16:57:58 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-04-25 16:57:58 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-04-25 16:57:58 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2025-04-25 16:57:58 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][285]-> Root WebApplicationContext: initialization completed in 739 ms
+2025-04-25 16:57:59 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2025-04-25 16:58:00 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:58:00 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 16:58:00 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:58:00 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:58:00 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 16:58:00 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 16:58:00 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][initialize][181]-> Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-25 16:58:01 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:58:01 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][initialize][181]-> Initializing ExecutorService 'taskScheduler'
+2025-04-25 16:58:03 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:58:03 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2025-04-25 16:58:03 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2025-04-25 16:58:03 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][register][71]-> nacos registry, DEFAULT_GROUP easychat-loginservice 192.168.126.1:5050 register finished
+2025-04-25 16:58:05 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 16:58:05 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 10.205 seconds (JVM running for 10.792)
+2025-04-25 16:58:05 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2025-04-25 16:58:05 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2025-04-25 16:58:05 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2025-04-25 16:58:05 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][101]-> Netty服务端启动成功,端口:5053
+2025-04-25 16:58:05 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][103]-> Netty服务注册到nacos成功,端口:5053
+2025-04-25 16:58:35 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 16:58:35 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][86]-> De-registering from Nacos Server now...
+2025-04-25 16:58:35 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][106]-> De-registration finished.
+2025-04-25 16:58:47 [WARN][org.springframework.beans.factory.support.DisposableBeanAdapter][invokeCustomDestroyMethod][349]-> Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-04-25 16:58:47 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 16:58:47 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][shutdown][218]-> Shutting down ExecutorService 'applicationTaskExecutor'
+2025-04-25 16:58:47 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2025-04-25 16:58:47 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
+2025-04-25 18:01:52 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][651]-> No active profile set, falling back to default profiles: default
+2025-04-25 18:01:53 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][249]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-25 18:01:53 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][127]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-25 18:01:53 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][187]-> Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2025-04-25 18:01:53 [INFO][org.springframework.cloud.context.scope.GenericScope][setSerializationId][295]-> BeanFactory id=7d81f9f2-5977-3689-9bf1-32dc6adbe025
+2025-04-25 18:01:53 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2025-04-25 18:01:53 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2025-04-25 18:01:53 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2025-04-25 18:01:53 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-25 18:01:53 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-04-25 18:01:53 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2025-04-25 18:01:53 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-04-25 18:01:53 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-04-25 18:01:53 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2025-04-25 18:01:53 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][285]-> Root WebApplicationContext: initialization completed in 655 ms
+2025-04-25 18:01:53 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2025-04-25 18:01:54 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 18:01:54 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 18:01:54 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 18:01:54 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 18:01:54 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 18:01:54 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 18:01:54 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][initialize][181]-> Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-25 18:01:56 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 18:01:56 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][initialize][181]-> Initializing ExecutorService 'taskScheduler'
+2025-04-25 18:01:57 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 18:01:57 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2025-04-25 18:01:57 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2025-04-25 18:01:57 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][register][71]-> nacos registry, DEFAULT_GROUP easychat-loginservice 192.168.126.1:5050 register finished
+2025-04-25 18:01:59 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 18:01:59 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 9.295 seconds (JVM running for 9.949)
+2025-04-25 18:01:59 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2025-04-25 18:01:59 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2025-04-25 18:01:59 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2025-04-25 18:01:59 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][101]-> Netty服务端启动成功,端口:5053
+2025-04-25 18:01:59 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][103]-> Netty服务注册到nacos成功,端口:5053
+2025-04-25 18:04:48 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][651]-> No active profile set, falling back to default profiles: default
+2025-04-25 18:04:48 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][249]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-25 18:04:48 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][127]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-25 18:04:48 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][187]-> Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2025-04-25 18:04:48 [INFO][org.springframework.cloud.context.scope.GenericScope][setSerializationId][295]-> BeanFactory id=7d81f9f2-5977-3689-9bf1-32dc6adbe025
+2025-04-25 18:04:48 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6050 (http)
+2025-04-25 18:04:48 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6050"]
+2025-04-25 18:04:48 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2025-04-25 18:04:48 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-25 18:04:48 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-04-25 18:04:48 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2025-04-25 18:04:48 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-04-25 18:04:48 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-04-25 18:04:48 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2025-04-25 18:04:48 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][285]-> Root WebApplicationContext: initialization completed in 796 ms
+2025-04-25 18:04:49 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2025-04-25 18:04:49 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 18:04:49 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 18:04:50 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 18:04:50 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 18:04:50 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 18:04:50 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 18:04:50 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][initialize][181]-> Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-25 18:04:51 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 18:04:51 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][initialize][181]-> Initializing ExecutorService 'taskScheduler'
+2025-04-25 18:04:52 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 18:04:53 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6050"]
+2025-04-25 18:04:53 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6050 (http) with context path '/api'
+2025-04-25 18:04:53 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][register][71]-> nacos registry, DEFAULT_GROUP easychat-loginservice 192.168.126.1:6050 register finished
+2025-04-25 18:04:54 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 18:04:54 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 9.466 seconds (JVM running for 10.047)
+2025-04-25 18:04:54 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2025-04-25 18:04:54 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2025-04-25 18:04:54 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2025-04-25 18:04:54 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][101]-> Netty服务端启动成功,端口:6053
+2025-04-25 18:04:54 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][103]-> Netty服务注册到nacos成功,端口:6053
+2025-04-25 18:06:02 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 18:06:02 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][86]-> De-registering from Nacos Server now...
+2025-04-25 18:06:02 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][106]-> De-registration finished.
+2025-04-25 18:06:38 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][651]-> No active profile set, falling back to default profiles: default
+2025-04-25 18:06:38 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][249]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-04-25 18:06:38 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][127]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-25 18:06:38 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][187]-> Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2025-04-25 18:06:38 [INFO][org.springframework.cloud.context.scope.GenericScope][setSerializationId][295]-> BeanFactory id=7d81f9f2-5977-3689-9bf1-32dc6adbe025
+2025-04-25 18:06:39 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 6050 (http)
+2025-04-25 18:06:39 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-6050"]
+2025-04-25 18:06:39 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2025-04-25 18:06:39 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.37]
+2025-04-25 18:06:39 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2025-04-25 18:06:39 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2025-04-25 18:06:39 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-04-25 18:06:39 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2025-04-25 18:06:39 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2025-04-25 18:06:39 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][285]-> Root WebApplicationContext: initialization completed in 666 ms
+2025-04-25 18:06:39 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2025-04-25 18:06:40 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 18:06:40 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2025-04-25 18:06:40 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 18:06:40 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 18:06:40 [WARN][com.netflix.config.sources.URLConfigurationSource][<init>][121]-> No URLs will be polled as dynamic configuration sources.
+2025-04-25 18:06:40 [INFO][com.netflix.config.sources.URLConfigurationSource][<init>][122]-> To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-04-25 18:06:40 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][initialize][181]-> Initializing ExecutorService 'applicationTaskExecutor'
+2025-04-25 18:06:42 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 18:06:42 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][initialize][181]-> Initializing ExecutorService 'taskScheduler'
+2025-04-25 18:06:43 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 18:06:43 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-6050"]
+2025-04-25 18:06:43 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 6050 (http) with context path '/api'
+2025-04-25 18:06:43 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][register][71]-> nacos registry, DEFAULT_GROUP easychat-loginservice 192.168.126.1:6050 register finished
+2025-04-25 18:06:45 [INFO][org.springframework.cloud.commons.util.InetUtils][convertAddress][170]-> Cannot determine local hostname
+2025-04-25 18:06:45 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 9.493 seconds (JVM running for 10.076)
+2025-04-25 18:06:45 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2025-04-25 18:06:45 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2025-04-25 18:06:45 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2025-04-25 18:06:45 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][101]-> Netty服务端启动成功,端口:6053
+2025-04-25 18:06:45 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][103]-> Netty服务注册到nacos成功,端口:6053
+2025-04-25 21:09:25 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 21:09:25 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][86]-> De-registering from Nacos Server now...
+2025-04-25 21:09:25 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][106]-> De-registration finished.
+2025-04-25 21:09:37 [WARN][org.springframework.beans.factory.support.DisposableBeanAdapter][invokeCustomDestroyMethod][349]-> Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-04-25 21:09:37 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 21:09:37 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][shutdown][218]-> Shutting down ExecutorService 'applicationTaskExecutor'
+2025-04-25 21:09:37 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2025-04-25 21:09:37 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
+2025-04-25 21:09:48 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 21:09:48 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][86]-> De-registering from Nacos Server now...
+2025-04-25 21:09:48 [INFO][com.alibaba.cloud.nacos.registry.NacosServiceRegistry][deregister][106]-> De-registration finished.
+2025-04-25 21:09:57 [WARN][org.springframework.beans.factory.support.DisposableBeanAdapter][invokeCustomDestroyMethod][349]-> Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-04-25 21:09:57 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler][shutdown][218]-> Shutting down ExecutorService 'taskScheduler'
+2025-04-25 21:09:57 [INFO][org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor][shutdown][218]-> Shutting down ExecutorService 'applicationTaskExecutor'
+2025-04-25 21:09:57 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2025-04-25 21:09:57 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.

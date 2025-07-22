@@ -1,0 +1,244 @@
+2024-10-16 10:41:44 [INFO][org.hibernate.validator.internal.util.Version][<clinit>][21]-> HV000001: Hibernate Validator 6.2.0.Final
+2024-10-16 10:41:44 [INFO][com.easychat.EasyChatApplication][logStarting][55]-> Starting EasyChatApplication using Java 11.0.20.1 on DESKTOP-3Q03D1E with PID 21784 (D:\Program Files\Java\javacode\easychat-all\easychat-java\target\classes started by zhengpengju in D:\Program Files\Java\javacode\easychat-all\easychat-java)
+2024-10-16 10:41:44 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-10-16 10:41:45 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-10-16 10:41:45 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-16 10:41:45 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-10-16 10:41:46 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2024-10-16 10:41:46 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2024-10-16 10:41:46 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-10-16 10:41:46 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-10-16 10:41:46 [WARN][org.apache.catalina.core.AprLifecycleListener][log][173]-> This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2024-10-16 10:41:46 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-10-16 10:41:46 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-10-16 10:41:46 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-10-16 10:41:46 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-10-16 10:41:46 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-10-16 10:41:46 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 1130 ms
+2024-10-16 10:41:46 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2024-10-16 10:41:59 [WARN][org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext][refresh][591]-> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initRun': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nettyWebSocketStarter': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerWebSocket': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelContextUtils': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisComponet': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/easychat/redis/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+2024-10-16 10:41:59 [INFO][org.apache.catalina.core.StandardService][log][173]-> Stopping service [Tomcat]
+2024-10-16 10:41:59 [ERROR][org.springframework.boot.SpringApplication][reportFailure][819]-> Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initRun': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nettyWebSocketStarter': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerWebSocket': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelContextUtils': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisComponet': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/easychat/redis/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.easychat.EasyChatApplication.main(EasyChatApplication.java:30)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'nettyWebSocketStarter': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerWebSocket': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelContextUtils': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisComponet': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/easychat/redis/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'handlerWebSocket': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelContextUtils': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisComponet': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/easychat/redis/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 31 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'channelContextUtils': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisComponet': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/easychat/redis/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 45 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisComponet': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/easychat/redis/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [com/easychat/redis/RedisConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 73 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 89 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: 192.168.145.129/192.168.145.129:6379
+	at org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:160)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:551)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:330)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$1(ConnectionPool.java:296)
+	at org.redisson.misc.RedissonPromise.lambda$onComplete$0(RedissonPromise.java:183)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:577)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:570)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:549)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:490)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:615)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:608)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at org.redisson.misc.RedissonPromise.tryFailure(RedissonPromise.java:96)
+	at org.redisson.client.RedisClient$2$2.run(RedisClient.java:249)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: 192.168.145.129/192.168.145.129:6379
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	... 7 common frames omitted
+2024-10-16 10:43:12 [INFO][com.easychat.EasyChatApplication][logStarting][55]-> Starting EasyChatApplication using Java 11.0.20.1 on DESKTOP-3Q03D1E with PID 21080 (D:\Program Files\Java\javacode\easychat-all\easychat-java\target\classes started by zhengpengju in D:\Program Files\Java\javacode\easychat-all\easychat-java)
+2024-10-16 10:43:12 [INFO][org.hibernate.validator.internal.util.Version][<clinit>][21]-> HV000001: Hibernate Validator 6.2.0.Final
+2024-10-16 10:43:12 [INFO][com.easychat.EasyChatApplication][logStartupProfileInfo][635]-> No active profile set, falling back to default profiles: default
+2024-10-16 10:43:13 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][multipleStoresDetected][262]-> Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-10-16 10:43:13 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][132]-> Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-16 10:43:13 [INFO][org.springframework.data.repository.config.RepositoryConfigurationDelegate][registerRepositoriesIn][201]-> Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-10-16 10:43:13 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][initialize][108]-> Tomcat initialized with port(s): 5050 (http)
+2024-10-16 10:43:13 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Initializing ProtocolHandler ["http-nio-5050"]
+2024-10-16 10:43:13 [INFO][org.apache.catalina.core.StandardService][log][173]-> Starting service [Tomcat]
+2024-10-16 10:43:13 [INFO][org.apache.catalina.core.StandardEngine][log][173]-> Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-10-16 10:43:13 [WARN][org.apache.catalina.core.AprLifecycleListener][log][173]-> This listener must only be nested within Server elements, but is in [TomcatEmbeddedContext].
+2024-10-16 10:43:13 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-10-16 10:43:13 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2024-10-16 10:43:13 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-10-16 10:43:13 [INFO][org.apache.catalina.core.AprLifecycleListener][log][173]-> OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-10-16 10:43:13 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring embedded WebApplicationContext
+2024-10-16 10:43:13 [INFO][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][prepareWebApplicationContext][290]-> Root WebApplicationContext: initialization completed in 766 ms
+2024-10-16 10:43:14 [INFO][org.redisson.Version][logVersion][41]-> Redisson 3.12.3
+2024-10-16 10:43:14 [INFO][org.redisson.connection.pool.MasterPubSubConnectionPool][lambda$run$0][168]-> 1 connections initialized for 192.168.145.129/192.168.145.129:6379
+2024-10-16 10:43:14 [INFO][org.redisson.connection.pool.MasterConnectionPool][lambda$run$0][168]-> 24 connections initialized for 192.168.145.129/192.168.145.129:6379
+2024-10-16 10:43:15 [INFO][org.apache.coyote.http11.Http11NioProtocol][log][173]-> Starting ProtocolHandler ["http-nio-5050"]
+2024-10-16 10:43:15 [INFO][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][start][220]-> Tomcat started on port(s): 5050 (http) with context path '/api'
+2024-10-16 10:43:15 [INFO][com.easychat.EasyChatApplication][logStarted][61]-> Started EasyChatApplication in 2.655 seconds (JVM running for 3.231)
+2024-10-16 10:43:15 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][110]-> HikariCPDatasource - Starting...
+2024-10-16 10:43:15 [INFO][com.zaxxer.hikari.HikariDataSource][getConnection][123]-> HikariCPDatasource - Start completed.
+2024-10-16 10:43:15 [ERROR][com.easychat.InitRun][run][30]-> 服务启动成功，可以开始愉快的开发了
+2024-10-16 10:43:15 [INFO][com.easychat.websocket.netty.NettyWebSocketStarter][run][90]-> Netty服务端启动成功,端口:5051
+2024-10-16 10:43:41 [INFO][org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api]][log][173]-> Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-16 10:43:41 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][525]-> Initializing Servlet 'dispatcherServlet'
+2024-10-16 10:43:41 [INFO][org.springframework.web.servlet.DispatcherServlet][initServletBean][547]-> Completed initialization in 1 ms
+2024-10-16 10:43:56 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelActive][51]-> 有新的连接加入。。。
+2024-10-16 10:44:24 [INFO][com.easychat.websocket.MessageHandler][lambda$lisMessage$0][35]-> 收到广播消息:{"contactId":"U52355233598","contactType":0,"lastMessage":"我只是一个机器人无法识别你的消息","messageContent":"我只是一个机器人无法识别你的消息","messageId":1777,"messageType":2,"sendTime":1729046664337,"sendUserId":"Urobot","sendUserNickName":"EasyChat","sessionId":"880665f1f9538f065142ccc6438221e0","status":1}
+2024-10-16 10:46:09 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelInactive][62]-> 有连接已经断开。。。
+2024-10-16 10:46:23 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://localhost:5050/api/account/login,错误信息:
+com.easychat.exception.BusinessException: 账号或者密码错误
+2024-10-16 10:46:31 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://localhost:5050/api/account/login,错误信息:
+com.easychat.exception.BusinessException: 图片验证码不正确
+2024-10-16 10:46:34 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelActive][51]-> 有新的连接加入。。。
+2024-10-16 10:46:43 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelInactive][62]-> 有连接已经断开。。。
+2024-10-16 10:47:06 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelActive][51]-> 有新的连接加入。。。
+2024-10-16 10:47:12 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:12 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:12 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:12 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:12 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:12 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:17 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:17 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:24 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:24 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://127.0.0.1:5050/api/chat/downloadFile,错误信息:
+com.easychat.exception.BusinessException: 文件不存在
+2024-10-16 10:47:55 [ERROR][com.easychat.aspect.GlobalOperationAspect][interceptorDo][49]-> 全局拦截器异常
+com.easychat.exception.BusinessException: 登录超时
+2024-10-16 10:47:55 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://localhost:5050/api/admin/loadBeautyAccountList,错误信息:
+com.easychat.exception.BusinessException: 登录超时
+2024-10-16 10:47:55 [ERROR][com.easychat.aspect.GlobalOperationAspect][interceptorDo][49]-> 全局拦截器异常
+com.easychat.exception.BusinessException: 登录超时
+2024-10-16 10:47:55 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://localhost:5050/api/admin/loadUser,错误信息:
+com.easychat.exception.BusinessException: 登录超时
+2024-10-16 10:47:56 [ERROR][com.easychat.aspect.GlobalOperationAspect][interceptorDo][49]-> 全局拦截器异常
+com.easychat.exception.BusinessException: 登录超时
+2024-10-16 10:47:56 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://localhost:5050/api/admin/loadBeautyAccountList,错误信息:
+com.easychat.exception.BusinessException: 登录超时
+2024-10-16 10:47:57 [ERROR][com.easychat.aspect.GlobalOperationAspect][interceptorDo][49]-> 全局拦截器异常
+com.easychat.exception.BusinessException: 登录超时
+2024-10-16 10:47:57 [ERROR][com.easychat.controller.AGlobalExceptionHandlerController][handleException][26]-> 请求错误，请求地址http://localhost:5050/api/admin/loadUser,错误信息:
+com.easychat.exception.BusinessException: 登录超时
+2024-10-16 10:47:57 [INFO][com.easychat.websocket.netty.HandlerWebSocket][channelInactive][62]-> 有连接已经断开。。。
+2024-10-16 20:56:22 [INFO][com.zaxxer.hikari.HikariDataSource][close][350]-> HikariCPDatasource - Shutdown initiated...
+2024-10-16 20:56:22 [INFO][com.zaxxer.hikari.HikariDataSource][close][352]-> HikariCPDatasource - Shutdown completed.
